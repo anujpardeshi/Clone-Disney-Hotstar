@@ -1,2 +1,2 @@
 # Clone-Disney-Hotstar
-Clone of disney+hotstar using html, css, and Js
+Clone of disney+hotstar using html, css, and Js.
