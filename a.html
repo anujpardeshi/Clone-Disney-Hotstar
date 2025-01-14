@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBL Match Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 90%;
+            max-width: 1200px;
+            background: url('/mnt/data/image.png') no-repeat center;
+            background-size: cover;
+            border-radius: 15px;
+            overflow: hidden;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .overlay {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .content {
+            position: relative;
+            padding: 20px;
+        }
+
+        .content h1 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .content .info {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .content .info span {
+            background: red;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+        }
+
+        .subscribe {
+            margin-top: 20px;
+            display: inline-block;
+            background: #000;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background 0.3s;
+        }
+
+        .subscribe:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Melbourne Renegades vs Adelaide Strikers</h1>
+            <div class="info">
+                <span></span>
+                <p>LIVE 84K &bull; Big Bash League 2024/25 &bull; Cricket</p>
+            </div>
+            <p>Watch live stream of the Big Bash League 2024/25 match between Melbourne Renegades and Adelaide Strikers</p>
+            <a href="#" class="subscribe">Subscribe to Watch</a>
+        </div>
+    </div>
+</body>
+</html>
